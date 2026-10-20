@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="MVC Practuchna.cpp" />
     <ClCompile Include="WeatherModel.cpp" />
+    <ClCompile Include="WeatherView.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WeatherModel.h" />
+    <ClInclude Include="WeatherView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
