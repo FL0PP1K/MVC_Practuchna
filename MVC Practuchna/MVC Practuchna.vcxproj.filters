@@ -19,6 +19,9 @@
     <Filter Include="View">
       <UniqueIdentifier>{de246fac-bc28-4363-b793-8c74feb71dcb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{da5a9eeb-d897-4882-a336-10c41807a5db}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MVC Practuchna.cpp">
@@ -30,6 +33,9 @@
     <ClCompile Include="WeatherView.cpp">
       <Filter>View</Filter>
     </ClCompile>
+    <ClCompile Include="WeatherController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WeatherModel.h">
@@ -37,6 +43,9 @@
     </ClInclude>
     <ClInclude Include="WeatherView.h">
       <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherController.h">
+      <Filter>Controller</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
